@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cm_components_reseau_partenaires",
+  "info": {
+    "displayName": "reseau_Partenaires"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

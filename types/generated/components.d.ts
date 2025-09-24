@@ -355,6 +355,18 @@ export interface CmComponentsMainNavLink extends Struct.ComponentSchema {
   };
 }
 
+export interface CmComponentsNosPartenaires extends Struct.ComponentSchema {
+  collectionName: 'components_cm_components_nos_partenaires';
+  info: {
+    displayName: 'nos_partenaires';
+  };
+  attributes: {
+    description_h2: Schema.Attribute.Text;
+    h2: Schema.Attribute.String;
+    partners: Schema.Attribute.Component<'cm-components.partners', true>;
+  };
+}
+
 export interface CmComponentsOffresEmploi extends Struct.ComponentSchema {
   collectionName: 'components_cm_components_offres_emplois';
   info: {
@@ -477,6 +489,18 @@ export interface CmComponentsRawLocations extends Struct.ComponentSchema {
     name: Schema.Attribute.String;
     note: Schema.Attribute.String;
     phone: Schema.Attribute.String;
+  };
+}
+
+export interface CmComponentsReseauPartenaires extends Struct.ComponentSchema {
+  collectionName: 'components_cm_components_reseau_partenaires';
+  info: {
+    displayName: 'reseau_Partenaires';
+  };
+  attributes: {
+    description_h2: Schema.Attribute.Text;
+    h2: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 
@@ -925,6 +949,7 @@ declare module '@strapi/strapi' {
       'cm-components.liste-testimonials': CmComponentsListeTestimonials;
       'cm-components.listebullet': CmComponentsListebullet;
       'cm-components.main-nav-link': CmComponentsMainNavLink;
+      'cm-components.nos-partenaires': CmComponentsNosPartenaires;
       'cm-components.offres-emploi': CmComponentsOffresEmploi;
       'cm-components.offres-profs': CmComponentsOffresProfs;
       'cm-components.page-spe': CmComponentsPageSpe;
@@ -932,6 +957,7 @@ declare module '@strapi/strapi' {
       'cm-components.pk-rejoindre': CmComponentsPkRejoindre;
       'cm-components.points': CmComponentsPoints;
       'cm-components.raw-locations': CmComponentsRawLocations;
+      'cm-components.reseau-partenaires': CmComponentsReseauPartenaires;
       'cm-components.responsabilite': CmComponentsResponsabilite;
       'cm-components.secondary-link': CmComponentsSecondaryLink;
       'cm-components.section-about': CmComponentsSectionAbout;

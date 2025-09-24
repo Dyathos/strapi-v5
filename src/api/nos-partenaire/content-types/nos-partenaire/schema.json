@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "nos_partenaires",
+  "info": {
+    "singularName": "nos-partenaire",
+    "pluralName": "nos-partenaires",
+    "displayName": "cm-partenaire"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description_h1": {
+      "type": "text"
+    },
+    "headerimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reseau_partenaires": {
+      "type": "component",
+      "component": "cm-components.reseau-partenaires",
+      "repeatable": false
+    },
+    "nos_partenaires": {
+      "type": "component",
+      "component": "cm-components.nos-partenaires",
+      "repeatable": false
+    },
+    "avis": {
+      "type": "component",
+      "component": "cm-components.liste-testimonials",
+      "repeatable": false
+    },
+    "social": {
+      "type": "component",
+      "component": "cm-components.social",
+      "repeatable": false
+    }
+  }
+}

@@ -1153,6 +1153,52 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiNosPartenaireNosPartenaire extends Struct.SingleTypeSchema {
+  collectionName: 'nos_partenaires';
+  info: {
+    displayName: 'cm-partenaire';
+    pluralName: 'nos-partenaires';
+    singularName: 'nos-partenaire';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    avis: Schema.Attribute.Component<'cm-components.liste-testimonials', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description_h1: Schema.Attribute.Text;
+    h1: Schema.Attribute.String;
+    headerimage: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::nos-partenaire.nos-partenaire'
+    > &
+      Schema.Attribute.Private;
+    meta_description: Schema.Attribute.Text;
+    meta_title: Schema.Attribute.String;
+    nos_partenaires: Schema.Attribute.Component<
+      'cm-components.nos-partenaires',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    reseau_partenaires: Schema.Attribute.Component<
+      'cm-components.reseau-partenaires',
+      false
+    >;
+    social: Schema.Attribute.Component<'cm-components.social', false>;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    url: Schema.Attribute.String;
+  };
+}
+
 export interface ApiPolitiquePolitique extends Struct.SingleTypeSchema {
   collectionName: 'politiques';
   info: {
@@ -1717,6 +1763,7 @@ declare module '@strapi/strapi' {
       'api::formulaire-recrutement.formulaire-recrutement': ApiFormulaireRecrutementFormulaireRecrutement;
       'api::formulaire-simple.formulaire-simple': ApiFormulaireSimpleFormulaireSimple;
       'api::global.global': ApiGlobalGlobal;
+      'api::nos-partenaire.nos-partenaire': ApiNosPartenaireNosPartenaire;
       'api::politique.politique': ApiPolitiquePolitique;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

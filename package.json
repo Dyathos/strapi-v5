@@ -21,6 +21,7 @@
     "@strapi/strapi": "5.23.0",
     "better-sqlite3": "11.3.0",
     "fs-extra": "^10.0.0",
+    "git-filter-repo": "^0.0.30",
     "mime-types": "^2.1.27",
     "pg": "^8.16.3",
     "react": "^18.0.0",
@@ -30,7 +31,6 @@
     "styled-components": "^6.0.0",
     "typescript": "5.4.4"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
