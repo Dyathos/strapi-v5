@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cm_components_appels",
+  "info": {
+    "displayName": "appel"
+  },
+  "options": {},
+  "attributes": {
+    "accroche": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "debut": {
+      "type": "time"
+    },
+    "fin": {
+      "type": "time"
+    }
+  },
+  "config": {}
+}

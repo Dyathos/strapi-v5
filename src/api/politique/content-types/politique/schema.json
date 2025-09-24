@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "politiques",
+  "info": {
+    "singularName": "politique",
+    "pluralName": "politiques",
+    "displayName": "cm-politique"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "text"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description_h1": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

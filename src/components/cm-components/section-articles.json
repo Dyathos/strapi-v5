@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_section_articles",
+  "info": {
+    "displayName": "section-articles"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "articles": {
+      "type": "component",
+      "component": "cm-components.courses",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

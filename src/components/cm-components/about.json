@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_abouts",
+  "info": {
+    "displayName": "About"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "descriptionh2": {
+      "type": "text"
+    },
+    "listeBullets": {
+      "type": "component",
+      "component": "cm-components.listebullet",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

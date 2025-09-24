@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_liste_agences",
+  "info": {
+    "displayName": "listeAgences"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    },
+    "liste": {
+      "type": "component",
+      "component": "cm-components.liste",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

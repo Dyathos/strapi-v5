@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_main_nav_links",
+  "info": {
+    "displayName": "main-nav-link"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "component",
+      "component": "cm-components.category",
+      "repeatable": true
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

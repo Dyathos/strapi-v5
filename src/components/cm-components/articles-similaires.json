@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_articles_similaires",
+  "info": {
+    "displayName": "articles-similaires"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  },
+  "config": {}
+}

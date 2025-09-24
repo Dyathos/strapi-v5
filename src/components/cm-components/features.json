@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_features",
+  "info": {
+    "displayName": "features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "component": "cm-components.points",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

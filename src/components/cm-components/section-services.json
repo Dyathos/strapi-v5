@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_section_services",
+  "info": {
+    "displayName": "section-services"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "service": {
+      "type": "component",
+      "component": "cm-components.service",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

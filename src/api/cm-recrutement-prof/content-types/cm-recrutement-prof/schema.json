@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "cm_recrutement_profs",
+  "info": {
+    "singularName": "cm-recrutement-prof",
+    "pluralName": "cm-recrutement-profs",
+    "displayName": "cm-recrutement-prof"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "textImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pkRejoindre": {
+      "type": "component",
+      "component": "cm-components.pk-rejoindre",
+      "repeatable": false
+    },
+    "offresProfs": {
+      "type": "component",
+      "component": "cm-components.offres-profs",
+      "repeatable": false
+    },
+    "testimonial": {
+      "type": "component",
+      "component": "cm-components.liste-testimonials",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "cm-components.faq",
+      "repeatable": false
+    }
+  }
+}

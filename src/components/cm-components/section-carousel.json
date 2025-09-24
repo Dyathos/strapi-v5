@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cm_components_section_carousels",
+  "info": {
+    "displayName": "section-carousel"
+  },
+  "options": {},
+  "attributes": {
+    "carousel": {
+      "type": "component",
+      "component": "cm-components.carousel",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_section_stats",
+  "info": {
+    "displayName": "section-stats"
+  },
+  "options": {},
+  "attributes": {
+    "h3": {
+      "type": "string"
+    },
+    "descriptionh3": {
+      "type": "text"
+    },
+    "chiffres": {
+      "type": "component",
+      "component": "cm-components.liste-points",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

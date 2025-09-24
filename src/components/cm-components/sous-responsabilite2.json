@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cm_components_sous_responsabilite2s",
+  "info": {
+    "displayName": "sous-responsabilite2"
+  },
+  "options": {},
+  "attributes": {
+    "detailresponsabilite": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

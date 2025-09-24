@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_sub_spes",
+  "info": {
+    "displayName": "sub-spe"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "component",
+      "component": "cm-components.page-spe",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

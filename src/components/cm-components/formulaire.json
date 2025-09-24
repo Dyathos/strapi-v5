@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cm_components_formulaires",
+  "info": {
+    "displayName": "formulaire"
+  },
+  "options": {},
+  "attributes": {
+    "formulaire_clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::formulaire-client.formulaire-client"
+    }
+  },
+  "config": {}
+}

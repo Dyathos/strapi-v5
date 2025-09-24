@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Cm-category",
+    "description": "Organize your content into categories"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": ""
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description_h1": {
+      "type": "text"
+    },
+    "listepoints": {
+      "type": "component",
+      "component": "cm-components.liste-points",
+      "repeatable": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "cm_pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cm-page.cm-page",
+      "mappedBy": "category"
+    },
+    "listeTestimonials": {
+      "type": "component",
+      "component": "cm-components.liste-testimonials",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "cm-components.section-faq-items",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_centres_cms",
+  "info": {
+    "displayName": "centres-cm"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "accroche": {
+      "type": "string"
+    },
+    "cm_page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cm-page.cm-page"
+    }
+  },
+  "config": {}
+}

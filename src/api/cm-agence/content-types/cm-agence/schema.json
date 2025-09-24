@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "cm_agences",
+  "info": {
+    "singularName": "cm-agence",
+    "pluralName": "cm-agences",
+    "displayName": "cm-agence"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    },
+    "agences": {
+      "type": "component",
+      "component": "cm-components.raw-locations",
+      "repeatable": true
+    }
+  }
+}

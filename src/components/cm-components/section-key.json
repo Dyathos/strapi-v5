@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cm_components_section_keys",
+  "info": {
+    "displayName": "section-key"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

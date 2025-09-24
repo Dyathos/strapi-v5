@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_cm_components_points",
+  "info": {
+    "displayName": "points"
+  },
+  "options": {},
+  "attributes": {
+    "titrepoint": {
+      "type": "string"
+    },
+    "descriptionpoint": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "book",
+        "graduation_cap",
+        "chalkboard",
+        "pencil",
+        "lightbulb",
+        "certificate",
+        "medal",
+        "users",
+        "user",
+        "handshake",
+        "support",
+        "calendar",
+        "clock",
+        "globe",
+        "language",
+        "child",
+        "library",
+        "school",
+        "microscope",
+        "calculator"
+      ]
+    },
+    "iconBgClass": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "teal",
+        "pink",
+        "indigo",
+        "cyan",
+        "gray",
+        "black",
+        "white"
+      ]
+    }
+  },
+  "config": {}
+}

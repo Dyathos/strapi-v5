@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_bullet_points",
+  "info": {
+    "displayName": "bulletPoint"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "listeBullets": {
+      "type": "component",
+      "component": "cm-components.listebullet",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

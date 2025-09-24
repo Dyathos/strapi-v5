@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_responsabilites",
+  "info": {
+    "displayName": "responsabilite"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "detailmission": {
+      "type": "component",
+      "component": "cm-components.sous-responsabilite",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

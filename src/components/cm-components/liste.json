@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cm_components_listes",
+  "info": {
+    "displayName": "liste"
+  },
+  "options": {},
+  "attributes": {
+    "locations": {
+      "type": "component",
+      "component": "cm-components.raw-locations",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

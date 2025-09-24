@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "cm_recrutement_generals",
+  "info": {
+    "singularName": "cm-recrutement-general",
+    "pluralName": "cm-recrutement-generals",
+    "displayName": "cm-recrutement-general"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "headerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pkRejoindre": {
+      "type": "component",
+      "component": "cm-components.pk-rejoindre",
+      "repeatable": false
+    },
+    "imageTexte": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "offresEmploi": {
+      "type": "component",
+      "component": "cm-components.offres-emploi",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "cm-components.faq",
+      "repeatable": false
+    }
+  }
+}

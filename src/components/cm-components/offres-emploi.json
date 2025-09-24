@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cm_components_offres_emplois",
+  "info": {
+    "displayName": "offres-emploi"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

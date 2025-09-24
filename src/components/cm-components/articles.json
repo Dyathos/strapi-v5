@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_articles",
+  "info": {
+    "displayName": "articles"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "readTime": {
+      "type": "time"
+    },
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cm-page.cm-page"
+    }
+  },
+  "config": {}
+}

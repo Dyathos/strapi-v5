@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "cm_footers",
+  "info": {
+    "singularName": "cm-footer",
+    "pluralName": "cm-footers",
+    "displayName": "cm-footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "top": {
+      "type": "component",
+      "component": "cm-components.top-footer",
+      "repeatable": false
+    },
+    "bottom": {
+      "type": "component",
+      "component": "cm-components.bottom-footer",
+      "repeatable": false
+    },
+    "socialLink": {
+      "type": "component",
+      "component": "cm-components.social-link",
+      "repeatable": true
+    }
+  }
+}

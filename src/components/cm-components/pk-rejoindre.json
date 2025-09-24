@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cm_components_pk_rejoindres",
+  "info": {
+    "displayName": "pk-rejoindre"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

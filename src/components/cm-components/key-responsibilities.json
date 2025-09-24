@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_key_responsibilities",
+  "info": {
+    "displayName": "KeyResponsibilities"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "component",
+      "component": "cm-components.sous-responsabilite",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

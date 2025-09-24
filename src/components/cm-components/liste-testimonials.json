@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_liste_testimonials",
+  "info": {
+    "displayName": "listeTestimonials"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "cm-components.testimonials",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

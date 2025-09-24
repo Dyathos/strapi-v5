@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_sub_categories",
+  "info": {
+    "displayName": "sub-categories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "component",
+      "component": "cm-components.courses",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

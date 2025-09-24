@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_cm_components_raw_locations",
+  "info": {
+    "displayName": "raw-locations"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mapUrl": {
+      "type": "text"
+    },
+    "address": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

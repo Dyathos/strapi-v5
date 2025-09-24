@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": "Create your blog content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "articles"
+    },
+    "title": {
+      "type": "string"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description_h1": {
+      "type": "text",
+      "maxLength": 250
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "h3_ArticleSim": {
+      "type": "string"
+    },
+    "articlesSimilaires": {
+      "type": "component",
+      "component": "cm-components.articles-similaires",
+      "repeatable": true
+    },
+    "h3_PageSim": {
+      "type": "string"
+    },
+    "pagessimilaires": {
+      "type": "component",
+      "component": "cm-components.courses",
+      "repeatable": true
+    }
+  }
+}

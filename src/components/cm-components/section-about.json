@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cm_components_section_abouts",
+  "info": {
+    "displayName": "section-about"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

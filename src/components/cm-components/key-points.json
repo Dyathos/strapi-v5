@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cm_components_key_points",
+  "info": {
+    "displayName": "key-points"
+  },
+  "options": {},
+  "attributes": {
+    "listePoints": {
+      "type": "component",
+      "component": "cm-components.liste-points",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

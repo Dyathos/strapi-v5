@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "cm_socials",
+  "info": {
+    "singularName": "cm-social",
+    "pluralName": "cm-socials",
+    "displayName": "cm-social"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "h2_description": {
+      "type": "text"
+    },
+    "socialLink": {
+      "type": "component",
+      "component": "cm-components.social-link",
+      "repeatable": true
+    },
+    "email": {
+      "type": "component",
+      "component": "cm-components.email",
+      "repeatable": false
+    }
+  }
+}

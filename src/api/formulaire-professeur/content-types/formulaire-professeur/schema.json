@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formulaire_professeurs",
+  "info": {
+    "singularName": "formulaire-professeur",
+    "pluralName": "formulaire-professeurs",
+    "displayName": "formulaire-professeur"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adresse": {
+      "type": "string"
+    },
+    "cv": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "string"
+    },
+    "genre": {
+      "type": "string"
+    },
+    "infos": {
+      "type": "text"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

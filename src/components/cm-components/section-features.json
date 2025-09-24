@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cm_components_section_features",
+  "info": {
+    "displayName": "section-features"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "component",
+      "component": "cm-components.features",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_section_events",
+  "info": {
+    "displayName": "section-events"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "events": {
+      "type": "component",
+      "component": "cm-components.events",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

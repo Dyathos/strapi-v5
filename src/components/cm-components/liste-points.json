@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cm_components_liste_points",
+  "info": {
+    "displayName": "listePoints"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_cm_components_section_images",
+  "info": {
+    "displayName": "section-image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "h2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pages": {
+      "type": "component",
+      "component": "cm-components.courses",
+      "repeatable": true
+    },
+    "codecouleur": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

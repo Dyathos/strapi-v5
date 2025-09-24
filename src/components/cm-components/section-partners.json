@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_section_partners",
+  "info": {
+    "displayName": "section-partners"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "partners": {
+      "type": "component",
+      "component": "cm-components.partners",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

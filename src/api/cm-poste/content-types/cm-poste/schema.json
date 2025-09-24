@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cm_postes",
+  "info": {
+    "singularName": "cm-poste",
+    "pluralName": "cm-postes",
+    "displayName": "cm-poste"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "uid",
+      "required": true
+    },
+    "posteh1": {
+      "type": "string"
+    },
+    "abouth2": {
+      "type": "text"
+    },
+    "aboutdescription": {
+      "type": "text"
+    },
+    "descriptifh2": {
+      "type": "text"
+    },
+    "descriptifh2des": {
+      "type": "text"
+    },
+    "h2responsabilite": {
+      "type": "string"
+    },
+    "qualificationh2": {
+      "type": "text"
+    },
+    "qualificationdesch2": {
+      "type": "text"
+    },
+    "department": {
+      "type": "string"
+    },
+    "typecontrat": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    },
+    "salaire": {
+      "type": "string"
+    },
+    "lieu": {
+      "type": "string"
+    },
+    "mission": {
+      "type": "component",
+      "component": "cm-components.key-responsibilities",
+      "repeatable": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

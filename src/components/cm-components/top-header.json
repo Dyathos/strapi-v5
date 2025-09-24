@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cm_components_top_headers",
+  "info": {
+    "displayName": "top-header"
+  },
+  "options": {},
+  "attributes": {
+    "centrecm": {
+      "type": "component",
+      "component": "cm-components.centres-cm",
+      "repeatable": false
+    },
+    "appelheader": {
+      "type": "component",
+      "component": "cm-components.appel",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_cm_components_bottom_footers",
+  "info": {
+    "displayName": "bottom-footer"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "component",
+      "component": "cm-components.sub-spe",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cm_components_joinuses",
+  "info": {
+    "displayName": "joinus"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "descriptionh2": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

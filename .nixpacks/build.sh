@@ -1,0 +1,1 @@
+docker build /artifacts/bgko40swc484g80cc4gk008g -f /artifacts/bgko40swc484g80cc4gk008g/.nixpacks/Dockerfile -t z8g0og484og44sc0g0cc8k4o:eb146f34bab724ffa45d87a222293ffe5b2a1bb5 --build-arg CI=true --build-arg NIXPACKS_METADATA=node --build-arg NODE_ENV=production --build-arg NPM_CONFIG_PRODUCTION=false --build-arg SOURCE_COMMIT=eb146f34bab724ffa45d87a222293ffe5b2a1bb5

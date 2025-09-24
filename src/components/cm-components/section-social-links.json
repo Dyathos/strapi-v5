@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cm_components_section_social_links",
+  "info": {
+    "displayName": "section-social-links"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "socialLink": {
+      "type": "component",
+      "component": "cm-components.social-link",
+      "repeatable": true
+    },
+    "email": {
+      "type": "component",
+      "component": "cm-components.email",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

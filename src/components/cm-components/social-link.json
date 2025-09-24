@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_cm_components_social_links",
+  "info": {
+    "displayName": "social-link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "linkedin",
+        "twitter",
+        "youtube",
+        "tiktok",
+        "snapchat",
+        "whatsapp",
+        "pinterest",
+        "github",
+        "dribbble",
+        "behance",
+        "telegram",
+        "discord"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

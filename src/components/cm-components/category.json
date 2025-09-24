@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cm_components_categories",
+  "info": {
+    "displayName": "category"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "subCategories": {
+      "type": "component",
+      "component": "cm-components.sub-categories",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

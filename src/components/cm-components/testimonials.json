@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_cm_components_testimonials",
+  "info": {
+    "displayName": "testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer",
+      "default": 5,
+      "min": 3,
+      "max": 5
+    },
+    "role": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

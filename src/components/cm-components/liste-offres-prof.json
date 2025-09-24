@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_cm_components_liste_offres_profs",
+  "info": {
+    "displayName": "liste-offres-prof"
+  },
+  "options": {},
+  "attributes": {
+    "titre_poste": {
+      "type": "string"
+    },
+    "description_poste": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    }
+  },
+  "config": {}
+}

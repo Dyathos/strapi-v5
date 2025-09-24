@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_cm_components_socials",
+  "info": {
+    "displayName": "social"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    },
+    "emailField": {
+      "type": "string"
+    },
+    "emailValue": {
+      "type": "string"
+    },
+    "socialLink": {
+      "type": "component",
+      "component": "cm-components.social-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

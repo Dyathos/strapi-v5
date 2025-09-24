@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "cm_homes",
+  "info": {
+    "singularName": "cm-home",
+    "pluralName": "cm-homes",
+    "displayName": "cm-home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "description_h1": {
+      "type": "string"
+    },
+    "carousel": {
+      "type": "component",
+      "component": "cm-components.section-carousel",
+      "repeatable": false
+    },
+    "services": {
+      "type": "component",
+      "component": "cm-components.section-services",
+      "repeatable": false
+    },
+    "feature": {
+      "type": "component",
+      "component": "cm-components.features",
+      "repeatable": false
+    },
+    "stats": {
+      "type": "component",
+      "component": "cm-components.section-stats",
+      "repeatable": false
+    },
+    "sectionCategories": {
+      "type": "component",
+      "component": "cm-components.section-image",
+      "repeatable": true
+    },
+    "joinus": {
+      "type": "component",
+      "component": "cm-components.joinus",
+      "repeatable": true
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "cm-components.section-testimonials",
+      "repeatable": false
+    },
+    "partners": {
+      "type": "component",
+      "component": "cm-components.section-partners",
+      "repeatable": false
+    },
+    "articles": {
+      "type": "component",
+      "component": "cm-components.section-articles",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "cm-components.section-faq-items",
+      "repeatable": false
+    },
+    "events": {
+      "type": "component",
+      "component": "cm-components.section-events",
+      "repeatable": false
+    }
+  }
+}

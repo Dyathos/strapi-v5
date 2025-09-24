@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formulaire_recrutements",
+  "info": {
+    "singularName": "formulaire-recrutement",
+    "pluralName": "formulaire-recrutements",
+    "displayName": "formulaire-recrutement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "postedemande": {
+      "type": "string"
+    },
+    "civilite": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "cv": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cm_components_top_footers",
+  "info": {
+    "displayName": "top-footer"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "component",
+      "component": "cm-components.sub-categories",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

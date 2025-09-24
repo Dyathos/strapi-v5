@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cm_components_offres_profs",
+  "info": {
+    "displayName": "offresProfs"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string"
+    },
+    "description_h2": {
+      "type": "text"
+    },
+    "listeOffres": {
+      "type": "component",
+      "component": "cm-components.liste-offres-prof",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

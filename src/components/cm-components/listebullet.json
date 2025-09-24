@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cm_components_listebullets",
+  "info": {
+    "displayName": "listebullet"
+  },
+  "options": {},
+  "attributes": {
+    "bulletpoint": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

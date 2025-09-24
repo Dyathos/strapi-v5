@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formulaire_simples",
+  "info": {
+    "singularName": "formulaire-simple",
+    "pluralName": "formulaire-simples",
+    "displayName": "formulaire-simple"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "sujet": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

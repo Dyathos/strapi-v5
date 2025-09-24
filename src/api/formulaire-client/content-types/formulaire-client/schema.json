@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formulaire_clients",
+  "info": {
+    "singularName": "formulaire-client",
+    "pluralName": "formulaire-clients",
+    "displayName": "formulaire-client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    },
+    "categorie": {
+      "type": "string"
+    },
+    "niveau": {
+      "type": "string"
+    },
+    "specialite": {
+      "type": "string"
+    },
+    "matieres": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "ville": {
+      "type": "string"
+    },
+    "centre": {
+      "type": "string"
+    },
+    "ecole": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
