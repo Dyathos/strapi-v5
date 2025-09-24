@@ -4,3 +4,4 @@ build/
 .cache/
 .strapi/
 *.sqlite
+public/uploads/*.mp4
