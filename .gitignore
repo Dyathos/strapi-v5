@@ -6,3 +6,4 @@ build/
 *.sqlite
 public/uploads/
 public/uploads/
+public/uploads/
