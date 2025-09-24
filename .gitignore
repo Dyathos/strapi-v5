@@ -5,5 +5,3 @@ build/
 .strapi/
 *.sqlite
 public/uploads/
-public/uploads/
-public/uploads/
